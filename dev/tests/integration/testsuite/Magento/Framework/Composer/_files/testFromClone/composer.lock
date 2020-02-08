@@ -2452,9 +2452,9 @@
                 "shasum": ""
             },
             "require": {
-                "symfony/config": ">=2.4",
-                "symfony/dependency-injection": ">=2.4",
-                "symfony/filesystem": ">=2.4"
+                "symfony/config": ">=2.7.51",
+                "symfony/dependency-injection": ">=2.7.51",
+                "symfony/filesystem": ">=2.7.51"
             },
             "require-dev": {
                 "phpunit/phpunit": "4.*@stable",
