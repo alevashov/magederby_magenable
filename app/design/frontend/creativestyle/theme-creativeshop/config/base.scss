@@ -1,0 +1,53 @@
+@import 'config/variables';
+@import 'utils/font-family';
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background: $page_background;
+    /* stylelint-disable */
+    overflow-x: hidden; // hides horizontal scrollbar on Edge and IE
+    /* stylelint-enable */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    @include font-family($font_family-primary);
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+    font-size: 1.4rem;
+    font-display: swap;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+.lazyloaded {
+    opacity: 1;
+}
+
+@if $input_remove-number-appearance {
+    /* Hide HTML5 Up and Down arrows. */
+    input[type='number'] {
+        appearance: textfield;
+
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+}

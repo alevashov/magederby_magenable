@@ -8,8 +8,8 @@
                         <argument xsi:type="string" name="type">headline</argument>
                         <argument xsi:type="string" name="section">content</argument>
                         <argument xsi:type="array" name="data">
-                            <item name="title" xsi:type="string" translate="true">We are the right partner for you</item>
-                            <item name="subtitle" xsi:type="string" translate="true">This is why</item>
+                            <item name="title" xsi:type="string" translate="true">What is so special about our store</item>
+                            <item name="subtitle" xsi:type="string" translate="true">DeGouges brand promise</item>
                             <item name="headingTag" xsi:type="string">h4</item>
                             <item name="componentVisibility" xsi:type="array">
                                 <item name="mobile" xsi:type="string">1</item>
@@ -32,7 +32,7 @@
                                         <item name="decoded" xsi:type="string">MageSuite_ContentConstructorFrontend::images/usp-1.svg</item>
                                     </item>
                                     <item name="slogan" xsi:type="string" translate="true">Free Shipping</item>
-                                    <item name="description" xsi:type="string" translate="true">We will deliver your order without any cost</item>
+                                    <item name="description" xsi:type="string" translate="true">For orders over 50 EUR</item>
                                     <item name="cta" xsi:type="array">
                                         <item name="label" xsi:type="string"></item>
                                         <item name="href" xsi:type="string"></item>
@@ -52,8 +52,8 @@
                                     <item name="image" xsi:type="array">
                                         <item name="decoded" xsi:type="string">MageSuite_ContentConstructorFrontend::images/usp-2.svg</item>
                                     </item>
-                                    <item name="slogan" xsi:type="string" translate="true">Safe packing</item>
-                                    <item name="description" xsi:type="string" translate="true">All packages are safely packed with durable boxes</item>
+                                    <item name="slogan" xsi:type="string" translate="true">Premium Packing</item>
+                                    <item name="description" xsi:type="string" translate="true">Safely packed in premium boxes</item>
                                     <item name="cta" xsi:type="array">
                                         <item name="label" xsi:type="string"></item>
                                         <item name="href" xsi:type="string"></item>
@@ -73,8 +73,8 @@
                                     <item name="image" xsi:type="array">
                                         <item name="decoded" xsi:type="string">MageSuite_ContentConstructorFrontend::images/usp-3.svg</item>
                                     </item>
-                                    <item name="slogan" xsi:type="string" translate="true">Support</item>
-                                    <item name="description" xsi:type="string" translate="true">If you have any question or need help just contact us</item>
+                                    <item name="slogan" xsi:type="string" translate="true">Est. 1756</item>
+                                    <item name="description" xsi:type="string" translate="true">Over 263 years of heritage</item>
                                     <item name="cta" xsi:type="array">
                                         <item name="label" xsi:type="string"></item>
                                         <item name="href" xsi:type="string"></item>
@@ -94,8 +94,8 @@
                                     <item name="image" xsi:type="array">
                                         <item name="decoded" xsi:type="string">MageSuite_ContentConstructorFrontend::images/usp-4.svg</item>
                                     </item>
-                                    <item name="slogan" xsi:type="string" translate="true">Always on time</item>
-                                    <item name="description" xsi:type="string" translate="true">Select fast delivery service for 24h shipment</item>
+                                    <item name="slogan" xsi:type="string" translate="true">Royal quality</item>
+                                    <item name="description" xsi:type="string" translate="true">Purveyor of Queen Victoria</item>
                                     <item name="cta" xsi:type="array">
                                         <item name="label" xsi:type="string"></item>
                                         <item name="href" xsi:type="string"></item>
@@ -115,8 +115,8 @@
                                     <item name="image" xsi:type="array">
                                         <item name="decoded" xsi:type="string">MageSuite_ContentConstructorFrontend::images/usp-5.svg</item>
                                     </item>
-                                    <item name="slogan" xsi:type="string" translate="true">Service</item>
-                                    <item name="description" xsi:type="string" translate="true">All our products have 2 years warranty service provided by our store</item>
+                                    <item name="slogan" xsi:type="string" translate="true">Handcrafted in France</item>
+                                    <item name="description" xsi:type="string" translate="true">By our artisan candle makers</item>
                                     <item name="cta" xsi:type="array">
                                         <item name="label" xsi:type="string"></item>
                                         <item name="href" xsi:type="string"></item>
@@ -136,8 +136,8 @@
                                     <item name="image" xsi:type="array">
                                         <item name="decoded" xsi:type="string">MageSuite_ContentConstructorFrontend::images/usp-6.svg</item>
                                     </item>
-                                    <item name="slogan" xsi:type="string" translate="true">Measurement on site</item>
-                                    <item name="description" xsi:type="string" translate="true">Not sure what size to choose? Contact us, we will fit your needs</item>
+                                    <item name="slogan" xsi:type="string" translate="true">Exclusive Luxury</item>
+                                    <item name="description" xsi:type="string" translate="true">Limited quantity, elusively from us</item>
                                     <item name="cta" xsi:type="array">
                                         <item name="label" xsi:type="string"></item>
                                         <item name="href" xsi:type="string"></item>

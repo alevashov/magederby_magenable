@@ -129,7 +129,7 @@
             <container name="footer.element.promo" htmlTag="div" htmlClass="cs-footer__item cs-footer__item--promo">
                 <block class="MageSuite\ThemeHelpers\Block\Icon" name="footer.logo">
                     <arguments>
-                        <argument name="icon_url" xsi:type="string">images/logo-inverted.svg</argument>
+                        <argument name="icon_url" xsi:type="string">images/Logo135_white.png</argument>
                         <argument name="css_class" xsi:type="string">cs-footer__shop-logo</argument>
                         <argument name="alt_text" xsi:type="string" translate="true">Webshop logo</argument>
                         <argument name="lazy_loaded" xsi:type="boolean">true</argument>
@@ -261,7 +261,7 @@
                     <container name="page.bottom" htmlTag="div" htmlClass="cs-page-bottom">
                         <block class="Magento\Framework\View\Element\Template" name="page.bottom.info" template="Magento_Theme::page-bottom/group.phtml">
                             <arguments>
-                                <argument name="text" xsi:type="string" translate="true">Tax and 1,95€ shipping cost included to all prices.</argument>
+                                <argument name="text" xsi:type="string" translate="true">Tax included to all prices.</argument>
                                 <argument name="additional_css_classes" xsi:type="string">cs-page-bottom__group--info</argument>
                             </arguments>
                             <block class="MageSuite\ThemeHelpers\Block\Icon" name="page.bottom.info.logo">

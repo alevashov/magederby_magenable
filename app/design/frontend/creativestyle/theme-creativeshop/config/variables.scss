@@ -1,0 +1,142 @@
+@import 'config/breakpoints';
+@import 'config/colors';
+
+$ns: 'cs-' !default;
+
+$page_min-width: 32rem !default;
+$page_max-width: 120rem !default;
+$page_edge-gutter: 1.5rem !default;
+$page_background: $color_white !default;
+
+$input_remove-number-appearance: true !default;
+
+$font_family-primary: 'Libre Franklin' !default;
+$font_family-secondary: '' !default;
+
+$font_family-fallback: system-ui, /* macOS 10.11-10.12 */ -apple-system,
+    /* Windows 6+ */ Segoe UI, /* Android 4+ */ Roboto,
+    /* Ubuntu 10.10+ */ Ubuntu, /* Gnome 3+ */ Cantarell,
+    /* KDE Plasma 4+ */ Oxygen, /* fallback */ sans-serif,
+    /* macOS emoji */ 'Apple Color Emoji', /* Windows emoji */ 'Segoe UI Emoji',
+    /* Windows emoji */ 'Segoe UI Symbol', /* Linux emoji */ 'Noto Color Emoji' !default;
+
+$color_primary-500: $color_cerulean-blue !default;
+$color_primary-800: $color_torea-bay !default;
+
+$color_secondary-200: $color_kournikova !default;
+$color_secondary-500: $color_gold !default;
+
+$color_background-200: $color_white !default;
+$color_background-500: $color_gallery !default;
+$color_background-600: $color_alto !default;
+$color_background-700: $color_mineshaft !default;
+$color_background-800: $color_black !default;
+
+$color_border-100: $color_white !default;
+$color_border-200: $color_gallery !default;
+$color_border-500: $color_alto !default;
+$color_border-700: $color_gray !default;
+
+$color_text-200: $color_white !default;
+$color_text-300: $color_silver-chalice !default;
+$color_text-400: $color_gray !default;
+$color_text-500: $color_dove-gray !default;
+$color_text-600: $color_tundora !default;
+$color_text-800: $color_mineshaft !default;
+$color_text-900: $color_black !default;
+
+$color_error-200: $color_azaela !default;
+$color_error-500: $color_crimson !default;
+$color_error-600: $color_thunderbird !default;
+
+$color_warning-200: $color_half-colonial-white !default;
+$color_warning-500: $color_gamboge !default;
+$color_warning-600: $color_gamboge !default;
+$color_warning-700: $color_chelsea-gem !default;
+
+$color_success-200: $color_peppermint !default;
+$color_success-500: $color_apple !default;
+$color_success-600: $color_apple-dark !default;
+$color_success-700: $color_green-pea !default;
+
+$color_review-active: $color_yellow-orange !default;
+$color_review-bar-active: $color_cape-honey !default;
+$color_review-inactive: $color_gray !default;
+$color_review-control-inactive: $color_gray !default;
+
+$font-size_headline-1: 2.6rem !default;
+$font-size_headline-2: 2.6rem !default;
+$font-size_headline-3: 1.8rem !default;
+$font-size_headline-4: 1.5rem !default;
+$font-size_headline-5: 1.1rem !default;
+$font-size_headline-6: 1rem !default;
+$font-size_paragraph: 1.4rem !default;
+
+$transform_skew-200: skew(-12deg) !default;
+$transform_skew-200-revert: skew(12deg) !default;
+$transform_skew-300: skew(-15deg) !default;
+$transform_skew-300-revert: skew(15deg) !default;
+$transform_skew-400: skew(-18deg) !default;
+$transform_skew-400-revert: skew(18deg) !default;
+
+$link-color_base: $color_primary-500 !default;
+$link-color_base-hover: $color_primary-800 !default;
+
+$border-radius_base: 3px !default;
+
+$box-shadow_base: 1px 3px 3rem 0 rgba($color_mineshaft, 0.28) !default;
+$box-shadow-inset_base: inset 0 4px 2px 0 rgba($color_alto, 0.2) !default;
+
+$transition-default-time: 0.3s !default;
+$transition-easing_slowdown-900: cubic-bezier(0, 0.66, 0.32, 0.99) !default;
+
+// Tile ratio (using for padding-hack, only for IE11)
+$tile_aspect-ratio-width: 100 !default;
+$tile_aspect-ratio-height: 170 !default;
+
+$price_color: $color_cerulean-blue !default;
+$price_special-color: $color_crimson !default;
+$price_old-color: $color_dove-gray !default;
+
+// Below settings are global because we used it in different components related with header like offcanvas etc.
+$global_header-height-mobile: 5rem !default;
+$global_header-height-tablet: 8.3rem !default;
+$global_header-height-desktop: 11rem !default;
+
+// Set up behaviour of 'search' trigger item on header user nav. Possible options:
+// - breakpoint - item will be visible upto breakpoint, above breakpoint will be hidden
+// - true - item will be hidden always
+// - false - item will be visible always
+$global_header-hide-search-item-trigger-breakpoint: '>=laptop' !default;
+
+// Set up from which breakpoint, searchbox will be visible as a layer on header (between logo & header user nav in default), instead of sticky it below header
+$global_header-searchbox-as-layer-breakpoint: '>=laptop' !default;
+
+// Texts on images (slides on image-teaser, hero carousel, hero on grid etc.) variables
+$texts-on-image_headline-font-weight: 600 !default;
+$texts-on-image_headline-text-transform: none !default;
+$texts-on-image_subheadline-font-weight: 400 !default;
+$texts-on-image_subheadline-text-transform: none !default;
+$texts-on-image_text-font-weight: 400 !default;
+$texts-on-image_text-text-transform: none !default;
+
+// Schemes default variables (schemes are used for slides on image teasers, cms-page teasers, grid hero, hero component
+// Scheme dark. It is default scheme. If no scheme is specify in html (no class for scheme) dark colors of texts will be used.
+$scheme--dark_background: $color_background-200 !default;
+$scheme--dark_texts-color: $color_text-800 !default;
+
+// Scheme light
+$scheme--light_background: $color_background-700 !default;
+$scheme--light_texts-color: $color_text-200 !default;
+
+// Set up consistent margins for each Content Constructor component
+$component-spacing-configuration: (
+    default: 0 0 3rem,
+    // Pass a table of maps with appropriate spacing setting
+        responsive:
+        (
+            '>=tablet': 0 0 4rem,
+        ),
+) !default;
+
+$main-column_padding: 4rem 0 0 !default;
